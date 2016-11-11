@@ -21,14 +21,14 @@
         <ImageButton
             android:id="@+id/imageButtonTGambar"
             android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:elevation="0dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
 
         <ImageButton
             android:id="@+id/imageButtonTSuara"
@@ -40,7 +40,7 @@
             android:cropToPadding="false"
             android:elevation="0dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
 
         <ImageButton
             android:id="@+id/imageButtonExit"
@@ -52,6 +52,6 @@
             android:cropToPadding="false"
             android:elevation="0dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
     </LinearLayout>
 </ScrollView>

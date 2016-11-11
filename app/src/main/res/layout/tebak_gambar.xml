@@ -42,7 +42,7 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
 
         <ImageButton
             android:id="@+id/iButtonPilihanB"
@@ -54,7 +54,7 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
 
         <ImageButton
             android:id="@+id/iButtonPilihanC"
@@ -66,6 +66,6 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebakgambar" />
+            app:srcCompat="@drawable/tebak"/>
     </LinearLayout>
 </ScrollView>
