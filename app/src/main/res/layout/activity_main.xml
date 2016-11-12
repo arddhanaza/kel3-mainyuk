@@ -40,7 +40,7 @@
             android:cropToPadding="false"
             android:elevation="0dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebak"/>
+            app:srcCompat="@drawable/suara"/>
 
         <ImageButton
             android:id="@+id/imageButtonExit"
@@ -52,6 +52,6 @@
             android:cropToPadding="false"
             android:elevation="0dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/tebak"/>
+            app:srcCompat="@drawable/exit"/>
     </LinearLayout>
 </ScrollView>
