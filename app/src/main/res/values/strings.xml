@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">MAIN YUK - Mengenal Hewan</string>
-    <string name="title_activity_tebakgambar">Tebak Gambar Yuk</string>
+    <string-array name="image_ids">
+        <item>@drawable/quest</item>
+        <item>@drawable/quest</item>
+        <item>@drawable/quest</item>
+        <item>@drawable/quest</item>
+        <item>@drawable/quest</item>
+        <item>@drawable/quest</item>
+    </string-array>
 </resources>
