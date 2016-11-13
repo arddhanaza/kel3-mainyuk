@@ -30,6 +30,12 @@ public class TebakgambarActivity extends AppCompatActivity {
                       startActivity(new Intent());
                   }
             });*/
+            /*findViewById(R.id.imageBt).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebakgambarActivity.this, gambarActivity.class));
+                  }
+            });*/
 
       }
 
