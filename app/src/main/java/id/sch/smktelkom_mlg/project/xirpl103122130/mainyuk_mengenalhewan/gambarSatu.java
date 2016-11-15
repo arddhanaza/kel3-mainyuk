@@ -30,7 +30,7 @@ public class gambarSatu extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				AlertDialog.Builder AlertBox = new AlertDialog.Builder(gambarSatu.this, android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
-				AlertBox.setTitle("Yeeii Benar,!");
+				AlertBox.setTitle("Yeeii Benar!");
 				AlertBox.setMessage("Buka gambar yang lain");
 				AlertBox.setNeutralButton("OK", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
