@@ -36,6 +36,14 @@
         </activity>
         <activity android:name=".gambarDua">
         </activity>
+        <activity android:name=".gambarTiga">
+        </activity>
+        <activity android:name=".gambarEmpat">
+        </activity>
+        <activity android:name=".gambarLima">
+        </activity>
+        <activity android:name=".gambarEnam">
+        </activity>
     </application>
 
 </manifest>

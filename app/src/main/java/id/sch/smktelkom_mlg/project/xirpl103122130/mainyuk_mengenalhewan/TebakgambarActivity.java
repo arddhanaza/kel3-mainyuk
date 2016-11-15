@@ -26,5 +26,32 @@ public class TebakgambarActivity extends AppCompatActivity {
                   }
             });
 
+            findViewById(R.id.tiga).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebakgambarActivity.this, gambarTiga.class));
+                  }
+            });
+
+            findViewById(R.id.empat).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebakgambarActivity.this, gambarEmpat.class));
+                  }
+            });
+
+            findViewById(R.id.lima).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebakgambarActivity.this, gambarLima.class));
+                  }
+            });
+
+            findViewById(R.id.enam).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebakgambarActivity.this, gambarEnam.class));
+                  }
+            });
       }
 }
