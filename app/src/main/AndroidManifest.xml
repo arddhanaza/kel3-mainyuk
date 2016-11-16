@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_launcer"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
@@ -42,7 +42,9 @@
         <activity android:name=".suaraSatu" />
         <activity android:name=".suaraDuaActivity" />
         <activity android:name=".suaraTigaActivity" />
-        <activity android:name=".suaraEmpatActivity"></activity>
+        <activity android:name=".suaraEmpatActivity" />
+        <activity android:name=".suaraLimaActivity" />
+        <activity android:name=".suaraEnamActivity"></activity>
     </application>
 
 </manifest>

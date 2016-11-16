@@ -8,7 +8,7 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_suara_satu"
+        android:id="@+id/activity_suara_enam"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -16,7 +16,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="id.sch.smktelkom_mlg.project.xirpl103122130.mainyuk_mengenalhewan.suaraEmpatActivity">
+        tools:context="id.sch.smktelkom_mlg.project.xirpl103122130.mainyuk_mengenalhewan.suaraEnamActivity">
 
         <TextView
             android:id="@+id/textView2"
@@ -26,6 +26,16 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"
             android:text="Suara Hewan Apa Ini?" />
+
+        <!--<ImageView
+            android:id="@+id/imageViewSg"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/singa"/>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,7 +65,7 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/ayam" />
+            app:srcCompat="@drawable/anjing" />
 
         <ImageButton
             android:id="@+id/iButtonPilihanB"
@@ -67,7 +77,7 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/kambing" />
+            app:srcCompat="@drawable/kelincii" />
 
         <ImageButton
             android:id="@+id/iButtonPilihanC"
@@ -79,8 +89,7 @@
             android:background="@android:color/transparent"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/kuda" />
+            app:srcCompat="@drawable/sapia" />
 
     </LinearLayout>
-
 </ScrollView>
