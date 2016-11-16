@@ -18,5 +18,26 @@ public class TebaksuaraActivity extends AppCompatActivity {
                         startActivity(new Intent(TebaksuaraActivity.this, suaraSatu.class));
                   }
             });
+
+            findViewById(R.id.dua).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebaksuaraActivity.this, suaraDuaActivity.class));
+                  }
+            });
+
+            findViewById(R.id.tiga).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebaksuaraActivity.this, suaraTigaActivity.class));
+                  }
+            });
+
+            findViewById(R.id.empat).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        startActivity(new Intent(TebaksuaraActivity.this, suaraEmpatActivity.class));
+                  }
+            });
       }
 }

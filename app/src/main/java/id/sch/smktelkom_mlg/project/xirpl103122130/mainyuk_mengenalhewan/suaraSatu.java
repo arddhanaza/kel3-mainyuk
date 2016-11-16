@@ -37,7 +37,7 @@ public class suaraSatu extends AppCompatActivity {
 				AlertBox.setNeutralButton("OK", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
 
-						startActivity(new Intent(((Dialog) dialog).getContext(), TebakgambarActivity.class));
+						startActivity(new Intent(((Dialog) dialog).getContext(), TebaksuaraActivity.class));
 					}
 				});
 				AlertBox.show();
