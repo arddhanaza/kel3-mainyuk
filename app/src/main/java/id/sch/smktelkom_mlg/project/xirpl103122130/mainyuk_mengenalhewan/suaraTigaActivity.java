@@ -1,8 +1,6 @@
 package id.sch.smktelkom_mlg.project.xirpl103122130.mainyuk_mengenalhewan;
 
-import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -59,7 +57,7 @@ public class suaraTigaActivity extends AppCompatActivity {
                 AlertBox.setNeutralButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
-                        startActivity(new Intent(((Dialog) dialog).getContext(), TebaksuaraActivity.class));
+                        onBackPressed();
                     }
                 });
                 AlertBox.show();

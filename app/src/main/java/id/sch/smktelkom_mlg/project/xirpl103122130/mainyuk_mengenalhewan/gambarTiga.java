@@ -1,8 +1,6 @@
 package id.sch.smktelkom_mlg.project.xirpl103122130.mainyuk_mengenalhewan;
 
-import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +22,7 @@ public class gambarTiga extends AppCompatActivity {
                         AlertBox.setNeutralButton("OK", new DialogInterface.OnClickListener() {
                               public void onClick(DialogInterface dialog, int id) {
 
-                                    startActivity(new Intent(((Dialog) dialog).getContext(), TebakgambarActivity.class));
+                                    onBackPressed();
                               }
                         });
                         AlertBox.show();
