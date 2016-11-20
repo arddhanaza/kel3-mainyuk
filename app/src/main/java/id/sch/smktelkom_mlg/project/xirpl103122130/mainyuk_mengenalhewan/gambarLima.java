@@ -18,6 +18,8 @@ public class gambarLima extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_gambar_lima);
 
+            setTitle("Hewan Apakah Ini?");
+
             Log.d(TAG, "onStart: ");
             mediaPlayer = MediaPlayer.create(this, R.raw.naik);
 

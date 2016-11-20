@@ -15,6 +15,7 @@ public class suaraLimaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suara_lima);
         ImageView play = (ImageView) findViewById(R.id.play);
+        setTitle("Suara Hewan Apakah Ini?");
 
         final MediaPlayer mp = MediaPlayer.create(suaraLimaActivity.this, R.raw.kuda);
 

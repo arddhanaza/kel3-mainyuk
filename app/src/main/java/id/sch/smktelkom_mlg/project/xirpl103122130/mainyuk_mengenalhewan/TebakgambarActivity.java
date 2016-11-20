@@ -15,6 +15,7 @@ public class TebakgambarActivity extends AppCompatActivity {
       protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_tebakgambar);
+            setTitle("Tebak Gambar");
 
             Log.d(TAG, "onStart: ");
             mediaPlayer = MediaPlayer.create(this, R.raw.naik);

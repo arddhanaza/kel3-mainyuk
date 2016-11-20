@@ -14,6 +14,7 @@ public class suaraDuaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suara_dua);
+        setTitle("Suara Hewan Apakah Ini?");
 
         ImageView play = (ImageView) findViewById(R.id.play);
 

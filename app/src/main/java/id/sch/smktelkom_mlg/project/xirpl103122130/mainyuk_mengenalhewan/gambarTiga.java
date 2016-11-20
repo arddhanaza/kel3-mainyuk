@@ -17,6 +17,7 @@ public class gambarTiga extends AppCompatActivity {
       protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_gambar_tiga);
+            setTitle("Hewan Apakah Ini?");
 
             Log.d(TAG, "onStart: ");
             mediaPlayer = MediaPlayer.create(this, R.raw.naik);
