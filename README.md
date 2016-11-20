@@ -10,6 +10,7 @@
 # Video Aplikasi
 
 # Link Aplikasi
+Aplikasi dapat diunduh di link berikut : https://www.mediafire.com/?lydjlqt3es43jk4
 
 # Identitas Anggota
     Nama        : Arddhana Zhafran Amanullah
