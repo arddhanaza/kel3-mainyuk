@@ -3,6 +3,7 @@
     <color name="colorPrimary">#AD1457</color>
     <color name="colorPrimaryDark">#880E4F</color>
     <color name="colorAccent">#FFA000</color>
-    <color name="colorSempol">#E0F7FA</color>
+    <color name="colorSempol">#DCE775</color>
     <color name="colorBacem">#CFD8DC</color>
+    <color name="colorGambar">#FFF9C4</color>
 </resources>
