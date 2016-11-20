@@ -1,4 +1,4 @@
-# Main Yuk - Tebak Hewan
+# Main Yuk - Mengenal Hewan
 
 # Penjelasan Aplikasi
   Main Yuk adalah sebuah aplikasi mobile berupa kuis tentang hewan guna melatih anak usia dini untuk mengenal hewan-hewan. Pada aplikasi ini
