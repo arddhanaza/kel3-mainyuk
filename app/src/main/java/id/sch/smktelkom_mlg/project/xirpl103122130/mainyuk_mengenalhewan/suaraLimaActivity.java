@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 public class suaraLimaActivity extends AppCompatActivity {
@@ -16,7 +17,8 @@ public class suaraLimaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_suara_lima);
         ImageView play = (ImageView) findViewById(R.id.play);
         setTitle("Suara Hewan Apakah Ini?");
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         final MediaPlayer mp = MediaPlayer.create(suaraLimaActivity.this, R.raw.kuda);
 
         play.setOnClickListener(new View.OnClickListener() {

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,8 +18,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Main Yuk - Home");
+        //setTitle("Main Yuk - Home");
 
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         findViewById(R.id.imageButtonTGambar).setOnClickListener(new View.OnClickListener() {
             @Override

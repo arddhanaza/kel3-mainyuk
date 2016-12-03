@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 
 public class gambarSatu extends AppCompatActivity {
 
@@ -20,7 +21,8 @@ public class gambarSatu extends AppCompatActivity {
 		setTitle("Hewan Apakah Ini?");
 		Log.d(TAG, "onStart: ");
 		mediaPlayer = MediaPlayer.create(this, R.raw.naik);
-
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		findViewById(R.id.iButtonPilihanA).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

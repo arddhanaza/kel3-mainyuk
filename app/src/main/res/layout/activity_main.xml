@@ -20,11 +20,12 @@
 
         tools:context="id.sch.smktelkom_mlg.project.xirpl103122130.mainyuk_mengenalhewan.MainActivity">
 
+
         <ImageButton
             android:id="@+id/imageButtonTGambar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="50dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:cropToPadding="false"

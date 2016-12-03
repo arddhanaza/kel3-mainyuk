@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 
 public class gambarTiga extends AppCompatActivity {
 
@@ -18,7 +19,8 @@ public class gambarTiga extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_gambar_tiga);
             setTitle("Hewan Apakah Ini?");
-
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
             Log.d(TAG, "onStart: ");
             mediaPlayer = MediaPlayer.create(this, R.raw.naik);
 

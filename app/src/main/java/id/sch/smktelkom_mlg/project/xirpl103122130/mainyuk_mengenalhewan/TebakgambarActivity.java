@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 
 public class TebakgambarActivity extends AppCompatActivity {
       private static final String TAG = "LivecycleTag";
@@ -17,9 +18,17 @@ public class TebakgambarActivity extends AppCompatActivity {
             setContentView(R.layout.activity_tebakgambar);
             setTitle("Tebak Gambar");
 
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
             Log.d(TAG, "onStart: ");
             mediaPlayer = MediaPlayer.create(this, R.raw.naik);
 
+            findViewById(R.id.imageButtonHome).setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+                        onBackPressed();
+                  }
+            });
             findViewById(R.id.satu).setOnClickListener(new View.OnClickListener() {
                   @Override
                   public void onClick(View v) {

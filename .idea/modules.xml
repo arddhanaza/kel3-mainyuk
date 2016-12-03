@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MAINYUK-MengenalHewan.iml" filepath="$PROJECT_DIR$/MAINYUK-MengenalHewan.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kel3-mainyuk.iml" filepath="$PROJECT_DIR$/kel3-mainyuk.iml" />
       <module fileurl="file://$PROJECT_DIR$/kel3-mainyuk.iml" filepath="$PROJECT_DIR$/kel3-mainyuk.iml" />
     </modules>
   </component>
