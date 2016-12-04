@@ -22,7 +22,7 @@ https://drive.google.com/open?id=0B8vzO9BCgQxuaWFxbHR1NDdYM1U
 # Link Aplikasi
 Aplikasi dapat diunduh di link berikut : https://www.mediafire.com/?lydjlqt3es43jk4
 
-# Link Apk Releas 
+# Link Apk Release 
 https://drive.google.com/open?id=0B5EeZPMXc7uQQkhTejVMc2dkMjA
 
 # Identitas Anggota
