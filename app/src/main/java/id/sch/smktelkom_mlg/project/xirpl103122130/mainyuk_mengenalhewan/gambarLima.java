@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 
+import java.util.Timer;
+
 public class gambarLima extends AppCompatActivity {
 
       private static final String TAG = "LivecycleTag";
@@ -43,23 +45,33 @@ public class gambarLima extends AppCompatActivity {
 
             findViewById(R.id.iButtonPilihanB).setOnClickListener(new View.OnClickListener() {
                   @Override
-                  public void onClick(View v) {
-                        AlertDialog.Builder AlertBox = new AlertDialog.Builder(gambarLima.this, android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
-                        AlertBox.setTitle("Opss!");
-                        AlertBox.setMessage("Gambar yang anda pilih salah");
-                        AlertBox.setNeutralButton("OK", null);
-                        AlertBox.show();
+                  public void onClick(View view) {
+                        AlertDialog.Builder adb = new AlertDialog.Builder(view.getContext())
+                                .setTitle("Opss!")
+                                .setMessage("Gambar yang dipilih salah")
+                                .setCancelable(false);
+
+                        AlertDialog ad = adb.create();
+                        ad.show();
+
+                        Timer t = new Timer();
+                        t.schedule(new CloseDialogTimerTask(ad), 2000);
                   }
             });
 
             findViewById(R.id.iButtonPilihanC).setOnClickListener(new View.OnClickListener() {
                   @Override
-                  public void onClick(View v) {
-                        AlertDialog.Builder AlertBox = new AlertDialog.Builder(gambarLima.this, android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
-                        AlertBox.setTitle("Opss!");
-                        AlertBox.setMessage("Gambar yang anda pilih salah");
-                        AlertBox.setNeutralButton("OK", null);
-                        AlertBox.show();
+                  public void onClick(View view) {
+                        AlertDialog.Builder adb = new AlertDialog.Builder(view.getContext())
+                                .setTitle("Opss!")
+                                .setMessage("Gambar yang dipilih salah")
+                                .setCancelable(false);
+
+                        AlertDialog ad = adb.create();
+                        ad.show();
+
+                        Timer t = new Timer();
+                        t.schedule(new CloseDialogTimerTask(ad), 2000);
                   }
             });
       }

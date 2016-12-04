@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import java.util.Timer;
+
 public class suaraSatu extends AppCompatActivity {
 
 	@Override
@@ -47,23 +49,33 @@ public class suaraSatu extends AppCompatActivity {
 
 		findViewById(R.id.iButtonPilihanB).setOnClickListener(new View.OnClickListener() {
 			@Override
-			public void onClick(View v) {
-				AlertDialog.Builder AlertBox = new AlertDialog.Builder(suaraSatu.this, android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
-				AlertBox.setTitle("Opss!");
-				AlertBox.setMessage("Hewan ini suaranya bukan seperti itu");
-				AlertBox.setNeutralButton("OK", null);
-				AlertBox.show();
+			public void onClick(View view) {
+				AlertDialog.Builder adb = new AlertDialog.Builder(view.getContext())
+						.setTitle("Opss!")
+						.setMessage("Hewan ini suaranya bukan seperti itu")
+						.setCancelable(false);
+
+				AlertDialog ad = adb.create();
+				ad.show();
+
+				Timer t = new Timer();
+				t.schedule(new CloseDialogTimerTask(ad), 3000);
 			}
 		});
 
 		findViewById(R.id.iButtonPilihanC).setOnClickListener(new View.OnClickListener() {
 			@Override
-			public void onClick(View v) {
-				AlertDialog.Builder AlertBox = new AlertDialog.Builder(suaraSatu.this, android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
-				AlertBox.setTitle("Opss!");
-				AlertBox.setMessage("Hewan ini suaranya bukan seperti itu");
-				AlertBox.setNeutralButton("OK", null);
-				AlertBox.show();
+			public void onClick(View view) {
+				AlertDialog.Builder adb = new AlertDialog.Builder(view.getContext())
+						.setTitle("Opss!")
+						.setMessage("Hewan ini suaranya bukan seperti itu")
+						.setCancelable(false);
+
+				AlertDialog ad = adb.create();
+				ad.show();
+
+				Timer t = new Timer();
+				t.schedule(new CloseDialogTimerTask(ad), 3000);
 			}
 		});
 
