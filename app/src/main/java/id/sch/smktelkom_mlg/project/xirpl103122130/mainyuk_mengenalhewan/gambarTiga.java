@@ -22,7 +22,7 @@ public class gambarTiga extends AppCompatActivity {
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
             Log.d(TAG, "onStart: ");
-            mediaPlayer = MediaPlayer.create(this, R.raw.naik);
+            mediaPlayer = MediaPlayer.create(this, R.raw.hewan);
 
             findViewById(R.id.iButtonPilihanA).setOnClickListener(new View.OnClickListener() {
                   @Override

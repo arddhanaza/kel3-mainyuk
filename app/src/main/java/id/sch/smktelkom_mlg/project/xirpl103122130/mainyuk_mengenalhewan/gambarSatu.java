@@ -20,7 +20,7 @@ public class gambarSatu extends AppCompatActivity {
 		setContentView(R.layout.activity_gambar_satu);
 		setTitle("Hewan Apakah Ini?");
 		Log.d(TAG, "onStart: ");
-		mediaPlayer = MediaPlayer.create(this, R.raw.naik);
+		mediaPlayer = MediaPlayer.create(this, R.raw.hewan);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		findViewById(R.id.iButtonPilihanA).setOnClickListener(new View.OnClickListener() {
