@@ -17,7 +17,11 @@
  ![ScreenShoot9](https://s16.postimg.org/lt2g6oxut/image.jpg)
 
 # Video Aplikasi
-https://drive.google.com/open?id=0B8vzO9BCgQxuaWFxbHR1NDdYM1U
+
+<a href="https://www.youtube.com/watch?v=zQqs8IYsyo8&feature=youtu.be
+" target="_blank"><img src="http://img.youtube.com/vi/zQqs8IYsyo8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="800"  border="10" /></a>
+
 
 # Link Aplikasi
 Aplikasi dapat diunduh di link berikut : https://drive.google.com/open?id=0B5EeZPMXc7uQQkhTejVMc2dkMjA
