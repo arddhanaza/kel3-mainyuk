@@ -6,15 +6,15 @@
   Untuk tebak suara nantinya anak-anak akan menebak suara hewan apakah yang dimaksud. Seperti halnya tebak gambar, akan muncul pop up yang memberitahu apakah jawaban benar atau salah.
   
 # Screen Shoot Aplikasi
- ![ScreenShoot1](https://docs.google.com/uc?id=0B8vzO9BCgQxuSWtsd2REbTVTcVk)
- ![ScreenShoot2](https://docs.google.com/uc?id=0B8vzO9BCgQxuZ1hXY0RjNGpGZTA)
- ![ScreenShoot3](https://docs.google.com/uc?id=0B8vzO9BCgQxuOGozeGJpTVNFSTg)
- ![ScreenShoot4](https://docs.google.com/uc?id=0B8vzO9BCgQxuVFpkZmNUWTVfQU0)
- ![ScreenShoot5](https://docs.google.com/uc?id=0B8vzO9BCgQxuZXVVQjYtLWQwd1U)
- ![ScreenShoot6](https://docs.google.com/uc?id=0B8vzO9BCgQxuR3ZaSll6WExjczg)
- ![ScreenShoot7](https://docs.google.com/uc?id=0B8vzO9BCgQxuaWUxOXRaUXdiRUE)
- ![ScreenShoot8](https://docs.google.com/uc?id=0B8vzO9BCgQxuZXpESTE2T0RRcU0)
- ![ScreenShoot9](https://docs.google.com/uc?id=0B8vzO9BCgQxuZ3Z3eGd0b2pMVmM)
+ ![ScreenShoot1](https://s15.postimg.org/ho4v6qagb/image.jpg)
+ ![ScreenShoot2](https://s16.postimg.org/v25g8i2s5/image.jpg)
+ ![ScreenShoot3](https://s18.postimg.org/721gt24zt/image.jpg)
+ ![ScreenShoot4](https://s15.postimg.org/518ygos63/image.jpg)
+ ![ScreenShoot5](https://s17.postimg.org/ea43jd5yn/image.jpg)
+ ![ScreenShoot6](https://s18.postimg.org/nqmk46ekp/image.jpg)
+ ![ScreenShoot7](https://s17.postimg.org/kfjuy27hb/image.jpg)
+ ![ScreenShoot8](https://s12.postimg.org/xn9mxic7x/image.jpg)
+ ![ScreenShoot9](https://s16.postimg.org/lt2g6oxut/image.jpg)
 
 # Video Aplikasi
 https://drive.google.com/open?id=0B8vzO9BCgQxuaWFxbHR1NDdYM1U
